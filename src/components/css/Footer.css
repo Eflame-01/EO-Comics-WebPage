@@ -1,0 +1,25 @@
+footer{
+    border:5px solid black;
+    border-radius: 2.5px;
+    border-bottom:0;
+    border-left: 0;
+    border-right:0;
+
+    /* top: 30px; */
+    bottom: 0;
+    position: footer;
+    width: 100%;
+    /* height: fit-content; */
+    background: #003049;
+
+    box-shadow: 0 50vh 0 50vh #003049;
+
+    /* top: 30px;
+    position: relative;
+    width: 100%;
+    background: #003049; */
+}
+
+.footer-logo{
+    width:5%;
+}
