@@ -23,13 +23,24 @@ body{
     color:#003049;
 }
 
+.btn-comic-border{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.btn-comic-border:hover{
+    border:5px solid rgb(25, 25, 25);
+    border-radius: 3px;
+    transform: scale(1.00625);
+    box-shadow: 0 0 10px #f1f1f1, 0 0 10px #f1f1f1, 0 0 10px #f1f1f1;
+}
+
 .right-side{
     float:right;
 }
 
 .comic-book-border{
-    border:5px solid black;
-    border-radius: 2.5px;
+    border:5px solid rgb(25, 25, 25);
+    border-radius: 3px;
 }
 
 .inline-block{
@@ -40,9 +51,41 @@ body{
     background-color: #002f49ab;
 }
 
+.bg-orange{
+    background-color: #F77F00ab;
+}
+
+.bg-red{
+    background-color: #D62828ab;
+}
+
+.bg-white{
+    background-color: #f1f1f1ab;
+}
+
+.color-blue{
+    color: #003049;
+}
+
+.color-orange{
+    color: #F77F00;
+}
+
+.color-red{
+    color: #D62828;
+}
+
+.color-white{
+    color: #f1f1f1;
+}
+
 .form-width-half{
     width: 50%;
     margin: auto;
+}
+
+.logo-circle{
+    border-radius: 50%;
 }
 
 @media (min-width: 576px) { 
