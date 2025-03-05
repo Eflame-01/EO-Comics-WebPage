@@ -1,0 +1,20 @@
+.prim-sec:hover{
+   
+}
+.prim-sec-img{
+    width:100%;
+    aspect-ratio: 4/5;
+}
+
+.sec-sec{
+    width: 75%;
+    margin:auto;
+}
+
+.card-title{
+    color: #003049;
+}
+
+.card-text{
+    color: #003049
+}
